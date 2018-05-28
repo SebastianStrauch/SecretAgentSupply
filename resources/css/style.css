@@ -122,5 +122,28 @@ nav ul a{
   justify-content: center;
   align-items: center;
   padding: 0.5rem 0;
+}
 
+.location_grid{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+
+.loc_hours{
+  background-color: black;
+  color: white;
+  width: 35%;
+}
+
+.loc_hour_title{
+  display: block;
+  padding: 1rem 2rem;
+}
+
+.loc_hour_subtitle{
+  background-color: white;
+  color: black;
+  display: block;
 }
