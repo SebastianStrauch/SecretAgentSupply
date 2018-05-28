@@ -72,3 +72,23 @@ header span{
   justify-content: center;
   flex-wrap: wrap;
 }
+
+nav{
+  background-color: firebrick;
+  color: white;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0.75rem 0;
+  justify-content: space-between;
+}
+
+nav ul a{
+  font-size: 1rem;
+  font-family: Helvetica;
+  color: white;
+  text-decoration: none;
+}
