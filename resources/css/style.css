@@ -92,3 +92,35 @@ nav ul a{
   color: white;
   text-decoration: none;
 }
+
+.item{
+  width: 30%;
+}
+
+.item_grid{
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.item_image{
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item_image img{
+  max-width: 8rem;
+}
+
+.item_description{
+  display:flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0;
+
+}
