@@ -187,4 +187,56 @@ nav ul a{
     display: none;
   }
 
+  header span{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  .banner_new_arrival h1{
+    font-size: 1rem;
+  }
+
+  .banner_new_arrival h4{
+    font-size: 0.77rem;
+  }
+
+  .banner_new_arrival{
+    top: 10rem;
+    padding: 1rem 2rem;
+    width: 100%;
+    }
+
+    .banner_image{
+      height: 15rem;
+    }
+
+    #item03{
+      display: none;
+    }
+
+    #item02{
+      display: none;
+    }
+
+    .item{
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .location_grid{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .loc_hours{
+    width: 90%;
+    margin-bottom: 0.5rem;
+    }
+
+    .footer_text{
+      text-align: center;;
+    }
+
 }
